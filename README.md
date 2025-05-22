@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Data Visualization Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a **Data Visualization Dashboard** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **D3.js** for interactive charting. The dashboard provides insights into various global parameters such as intensity, likelihood, relevance, country, region, and more, through dynamic filtering and graphical representations.
 
-## Available Scripts
+## 🌐 Live Preview
 
-In the project directory, you can run:
+[View the Live Dashboard](#) *(Add deployed link if available)*
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React.js + D3.js (Charts, Filters, UI Components)
+- **Backend:** Node.js + Express.js
+- **Database:** MongoDB (Data imported from JSON)
+- **Visualization:** D3.js (Bar Chart, Line Chart, Pie Chart, etc.)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📊 Features
 
-### `npm test`
+- Interactive charts and graphs using D3.js
+- Filters:
+  - End Year
+  - Topics
+  - Sector
+  - Region
+  - PEST
+  - Source
+  - SWOT
+  - Country
+  - City
+- Dynamic data rendering from MongoDB
+- Responsive layout
+- Clean and user-friendly UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Khushi-2409/new_dashboard.git
+   cd new_dashboard
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Backend Dependencies**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd backend
+   npm install
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install Frontend Dependencies**
 
-### `npm run eject`
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **MongoDB Setup**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   * Import the `data.json` to your MongoDB database using [MongoDB Compass](https://www.mongodb.com/products/compass) or `mongoimport` CLI.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧪 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Frontend:** React.js, D3.js, HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Tools:** Git, VS Code
 
-## Learn More
+## 🙋‍♀️ About Me
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Khushi Khatri**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* 📧 [khushikhatri2407@gmail.com](mailto:khushikhatri2407@gmail.com)
+* 🔗 [LinkedIn](https://linkedin.com/in/khushi-khatri2407)
+* 🐙 [GitHub](https://github.com/Khushi-2409)
